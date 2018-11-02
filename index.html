@@ -8,43 +8,40 @@
 <body>
 <div class="flex-container">
     <h1>Calculatrice javascript</h1>
-    <div class="number1">
-
+      <div class="number1">
         <form action="" id="form">
-
            <input type="text"`0000` name="usrname" id="numIpt" oninput="checkUser(this.value);" maxlength="4" onkeypress="return isNumberKey(event)">
-            &nbsp;&nbsp;<label id="maxReached" style="visibility: hidden; color:red">!</label><br>
-        </form>
-                </div>
-    <div class="operator">
-            <br>
-        <form>
-            <select onchange="calculate()" id="calc" name="calc" size="1">
-                <option id="add">addition</option>
-                <option id="sub">soustraction</option>
-                <option id="mult">multiplication</option>
-                <option id="div">division</option>
-                <option id="modulo">modulo</option>
-            </select>
-        </form>
-            <br>
-    </div>
-    <div class="number2">
-        <form>
+                    &nbsp;&nbsp;<label id="maxReached" style="visibility: hidden; color:red">!</label><br>
+                    </form>
+                        </div>
+                            <div class="operator">
+                            <br>
+                                <form>
+                                        <select onchange="calculate()" id="calc" name="calc" size="1">
+                                                <option id="add">addition</option>
+                                                <option id="sub">soustraction</option>
+                                                <option id="mult">multiplication</option>
+                                                <option id="div">division</option>
+                                                <option id="modulo">modulo</option>
+                                        </select>
+                                </form>
+                            <br>
+                        </div>
+                   <div class="number2">
+                <form>
             <input type="text"`0000` name="usrname" id="numIpt2" oninput="checkUser(this.value);" maxlength="4" onkeypress="return isNumberKey(event)">
             &nbsp;&nbsp;<label id="maxReached" style="visibility: hidden; color:red">!</label><br>
         </form>
     </div>
 </div>
 <div class="flex-container1">
-    <div class="buttons">
-    <input type="button" id="calc" onclick="calculate()" value="clicker pour calculer">
-    </div>
-    <div class="results">
-            <p id="result">Résultat</p>
-
-    </div>
-</div>
-<script src="js/form.js"></script>
+         <div class="buttons">
+                <input type="button" id="calc" onclick="calculate()" value="Clicker pour calculer">
+                    </div>
+                        <div class="results">
+                            <p id="result">Résultat</p>
+                                 </div>
+                                    </div>
+                                        <script src="js/form.js"></script>
 </body>
 </html>

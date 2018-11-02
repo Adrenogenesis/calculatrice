@@ -1,5 +1,3 @@
-
-
 function checkUser(user){
     var number = user.length;
 
